@@ -5,7 +5,7 @@ class BillingCycleForm extends Component {
   render() {
 
     const { handleSubmit } = this.props;
-    console.log(handleSubmit, 'handleSubmit');
+    // console.log(handleSubmit, 'handleSubmit');
     return (
       <form role='form' onSubmit={handleSubmit}>
         <div className="box-body">
